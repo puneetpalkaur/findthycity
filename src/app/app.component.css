@@ -1,0 +1,64 @@
+div{
+  box-sizing: border-box;
+  font-family: Avenir;
+}
+.main{
+  width: 100%;
+  margin: 0!important;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  background: white;
+  box-shadow: 0 0 5px 1px rgba(134, 140, 148, 0.47);
+  text-align: center;
+  width: 70%;
+  padding: 30px;
+  border:1px solid rgba(0,0,0,.125);
+  margin-top: 50px;
+}
+input{
+  border:none;
+  margin-left: 20px;
+  border-radius: 50px;
+  width: 100%;
+}
+input:focus{
+  outline: none!important;
+}
+input::placeholder{
+  font-family: Avenir;
+}
+.input-wrap{
+  display: inline-flex;
+  position: relative;
+  border-radius: 50px;
+  border: 1px solid #2ECF9A;
+  padding: 5px 2px 3px 6px;
+  box-shadow: inset 0px 0px 2px 0px #2ECF9A;
+  width: 80%;
+  margin-bottom: 30px;
+}
+.city{
+  border-bottom:1px solid rgba(0,0,0,.125);
+  padding: 10px;
+
+}
+h2{
+  color:#2ECF9A;
+  font-weight: 300;
+  text-shadow: 0 1px 2px #868c94;
+}
+
+@media screen and (max-width: 500px) {
+  .card{
+    width: 100%;
+    margin-top: 0;
+  }
+  .input-wrap{
+    width: 100%;
+  }
+}
