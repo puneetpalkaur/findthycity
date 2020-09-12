@@ -1,5 +1,4 @@
 {"New York": [
-    "New York City",
     "Buffalo",
     "Rochester",
     "Yonkers",
@@ -12,6 +11,7 @@
     "White Plains",
     "Hempstead",
     "Troy",
+    "New York City",
     "Niagara Falls",
     "Binghamton",
     "Freeport",
@@ -147,7 +147,6 @@
     "Camarillo",
     "Walnut Creek",
     "Pittsburg",
-    "South San Francisco",
     "Yuba City",
     "San Clemente",
     "Laguna Niguel",
